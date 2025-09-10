@@ -1,15 +1,20 @@
 # scripts
 scripting in centos 10
 
+#cd ~
+mkdir scripts
+cd scripts
+vi myfirstscripts
+
 # echo "how are you"
 how are you
-#touch myfirstscript
-#vi myfirstscript
+#touch myfirstscripts
+#vi myfirstscripts
 #!/bin/bash
 /bin/echo "how are you"
 :wq
-# chmod a+x /myfirstscript
-#./myfirstscript
+# chmod a+x /myfirstscripts
+#./myfirstscripts
 or 
 #/myfirstscript--------------absolute path
 (#!/bin/bash---------------shebang value)
